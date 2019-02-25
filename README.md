@@ -29,6 +29,14 @@ A interface da aplicação será como a seguinte:
 
 ## Índice
 
+- [Telas](#telas)
+
+  - [Principal](#principal)
+
+  - [Novo Usuário](#novo-usuário)
+
+- [Rotas](#rotas)
+
 - [Desenvolvimento](#desenvolvimento)
 
   - [Configurações Iniciais](#configurações-iniciais)
@@ -40,6 +48,22 @@ A interface da aplicação será como a seguinte:
   - [Bibliotecas](#bibliotecas)
 
   - [Outras Ferramentas](#outras-ferramentas)
+
+## Telas
+
+### Principal
+
+![Main](/assets/main.png)
+Nesta tela, encontra-se um mapa com todos os usuários do GitHub que foi adicionado pelo usuário, podendo também, adicionar novos usuários dando um toque longo.
+
+### Novo Usuário
+
+![New](/assets/new.png)
+Esta tela é responsável por adicionar um usuário que esteja cadastrado no GitHub, sendo obrigatório informar o nome para inserí-lo.
+
+## Rotas
+
+- Busca um usuário do GitHub
 
 ## Desenvolvimento
 
