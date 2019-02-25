@@ -1,7 +1,18 @@
 import React from 'react';
+import { Provider } from 'react-redux';
 
-import { View } from 'react-native';
+import '~/config/ReactotronConfig';
+import '~/config/StatusBarConfig';
+import '~/config/MapboxConfig';
 
-const App = () => <View />;
+import Main from '~/pages/main';
+
+import store from '~/store';
+
+const App = () => (
+  <Provider store={store}>
+    <Main />
+  </Provider>
+);
 
 export default App;
