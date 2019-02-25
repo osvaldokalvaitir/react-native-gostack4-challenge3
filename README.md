@@ -1,5 +1,7 @@
 # React Native - Desafio 3
 
+Aplicação usando React Native, ESLint, EditorConfig, Babel Root Import, Redux, Redux-Saga, Ducks, Reactotron e Mapbox.
+
 ## Desafio 3
 
 Crie uma aplicação do zero e configura as ferramentas: ESLint, Reactotron, Babel Root Import e EditorConfig.
