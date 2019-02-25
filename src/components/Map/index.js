@@ -37,7 +37,7 @@ class Map extends Component {
 
   handleMapPress = ({ geometry }) => {
     const { showModal } = this.props;
-    const [ longitude, latitude ] = geometry.coordinates;
+    const [longitude, latitude] = geometry.coordinates;
 
     showModal(latitude, longitude);
   };
@@ -51,7 +51,7 @@ class Map extends Component {
         showUserLocation
         style={styles.container}
         onLongPress={this.handleMapPress}
-        centerCoordinate={[-49.6437627, -21.2123286]}
+        centerCoordinate={[-49.6437627, -27.2123286]}
       >
         {map.markers.map((marker, i) => (
           <MapboxGL.PointAnnotation
@@ -67,7 +67,7 @@ class Map extends Component {
             </View>
 
             <MapboxGL.Callout title={marker.user.name} />
-          </MapboxGL.PointAnnotation>          
+          </MapboxGL.PointAnnotation>
         ))}
       </MapboxGL.MapView>
     );
@@ -81,6 +81,6 @@ const mapStateToProps = state => ({
 const mapDispatchToProps = dispatch => bindActionCreators(ModalActions, dispatch);
 
 export default connect(
-  mapStateToProps, 
+  mapStateToProps,
   mapDispatchToProps,
 )(Map);
