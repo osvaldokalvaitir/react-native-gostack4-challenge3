@@ -41,13 +41,11 @@ A interface da aplicação será como a seguinte:
 
 ## Índice
 
-- [Telas](#telas)
+- [Capturas de Tela](#capturas-de-tela)
 
   - [Principal](#principal)
 
   - [Novo Usuário](#novo-usuário)
-
-- [Rotas](#rotas)
 
 - [Desenvolvimento](#desenvolvimento)
 
@@ -57,11 +55,15 @@ A interface da aplicação será como a seguinte:
 
   - [Execução do Projeto](#execução-do-projeto)
 
+- [Utilizados no Projeto](#utilizados-no-projeto)
+
   - [Bibliotecas](#bibliotecas)
+  
+  - [APIs](#apis)
 
-  - [Outras Ferramentas](#outras-ferramentas)
+  - [Ferramentas](#ferramentas)
 
-## Telas
+## Capturas de Tela
 
 ### Principal
 
@@ -72,10 +74,6 @@ Nesta tela, encontra-se um mapa com todos os usuários do GitHub que foi adicion
 
 ![New](/assets/new.png)
 Esta tela é responsável por adicionar um usuário que esteja cadastrado no GitHub, sendo obrigatório informar o nome para inserí-lo.
-
-## Rotas
-
-- Busca um usuário do GitHub
 
 ## Desenvolvimento
 
@@ -90,6 +88,8 @@ Clique [aqui](https://github.com/osvaldokalvaitir/projects-settings/blob/master/
 ### Execução do Projeto
 
 Clique [aqui](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/react-native-cli.md) e siga a Execução de Projeto.
+
+## Utilizados no Projeto
 
 ### Bibliotecas
 
@@ -125,6 +125,16 @@ Clique [aqui](https://github.com/osvaldokalvaitir/projects-settings/blob/master/
 
 - [Redux-Saga](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/redux-saga.md)
 
-### Outras Ferramentas
+### APIs
+
+- **[GitHub](https://api.github.com)**
+
+  - **Rotas**
+
+    - Usuários
+
+      - Busca dados de um usuário
+
+### Ferramentas
 
 - [Reactotron](https://github.com/osvaldokalvaitir/projects-settings/blob/master/inspector/reactotron.md)
