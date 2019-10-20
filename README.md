@@ -138,3 +138,5 @@ Clique [aqui](https://github.com/osvaldokalvaitir/projects-settings/blob/master/
 ### Ferramentas
 
 - [Reactotron](https://github.com/osvaldokalvaitir/projects-settings/blob/master/inspector/reactotron.md)
+
+- [Mapbox](https://github.com/osvaldokalvaitir/projects-settings/blob/master/map/mapbox.md)
