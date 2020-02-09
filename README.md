@@ -20,7 +20,7 @@ Nesse desafio você utilizará mapas para construir uma interface de cadastro de
 
 A interface da aplicação será como a seguinte:
 
-![Telas da aplicação](/assets/screens.png)
+![Telas da aplicação](/.github/assets/screens.png)
 
 ### Regras
 
@@ -58,7 +58,7 @@ A interface da aplicação será como a seguinte:
 - [Utilizados no Projeto](#utilizados-no-projeto)
 
   - [Bibliotecas](#bibliotecas)
-  
+
   - [APIs](#apis)
 
   - [Ferramentas](#ferramentas)
@@ -67,12 +67,12 @@ A interface da aplicação será como a seguinte:
 
 ### Principal
 
-![Main](/assets/main.png)
+![Main](/.github/assets/main.png)
 Nesta tela, encontra-se um mapa com todos os usuários do GitHub que foi adicionado pelo usuário, podendo também, adicionar novos usuários dando um toque longo.
 
 ### Novo Usuário
 
-![New](/assets/new.png)
+![New](/.github/assets/new.png)
 Esta tela é responsável por adicionar um usuário que esteja cadastrado no GitHub, sendo obrigatório informar o nome para inserí-lo.
 
 ## Desenvolvimento
