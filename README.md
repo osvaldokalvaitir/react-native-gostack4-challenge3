@@ -1,142 +1,68 @@
-# React Native - Desafio 3
+<h1 align="center">
+    <img src="/.github/assets/logo.png"
+    width="200px"
+    alt="Logo" />
+</h1>
 
-[![GitHub](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/osvaldokalvaitir/react-native-desafio3/blob/master/LICENSE)
-![](https://img.shields.io/github/package-json/v/osvaldokalvaitir/react-native-desafio3.svg)
-![](https://img.shields.io/github/last-commit/osvaldokalvaitir/react-native-desafio3.svg?color=red)
-![](https://img.shields.io/github/languages/top/osvaldokalvaitir/react-native-desafio3.svg?color=yellow)
-![](https://img.shields.io/github/languages/count/osvaldokalvaitir/react-native-desafio3.svg?color=lightgrey)
-![](https://img.shields.io/github/languages/code-size/osvaldokalvaitir/react-native-desafio3.svg)
-![](https://img.shields.io/github/repo-size/osvaldokalvaitir/react-native-desafio3.svg?color=blueviolet)
-[![made-for-VSCode](https://img.shields.io/badge/Made%20for-VSCode-1f425f.svg)](https://code.visualstudio.com/)
-![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)
+<h3 align="center">
+  React Native - GoStack 4 Challenge 3
+</h3>
 
-Aplicação usando React Native, ESLint, EditorConfig, Babel Root Import, Redux, Redux-Saga, Ducks, Reactotron e Mapbox.
+<p align="center">
+  :pushpin: Application using React Native, ESLint, EditorConfig, Babel Root Import, Redux, Redux-Saga, Ducks, Reactotron, Mapbox and consuming the features of the GitHub API
+</p>
 
-## Desafio 3
+<p align="center">
+  :muscle: Click <a href="/.github/docs/challenge.md">here</a> to see the challenge description
+</p>
 
-Crie uma aplicação do zero e configura as ferramentas: ESLint, Reactotron, Babel Root Import e EditorConfig.
+<p align="center">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/osvaldokalvaitir/react-native-gostack4-challenge3.svg?color=00A83A">
 
-Nesse desafio você utilizará mapas para construir uma interface de cadastro de localização de usuários do Github, o processo é simples, ao pressionar o mapa, um modal será aberto com o campo para digitar um usuário do Github, ao clicar em “Salvar”, uma requisição à API do Github deve ser feita buscando dados como nome, avatar e bio do usuário e aparecer no mapa com seu avatar, ao clicar em cima do usuário no mapa, deve aparecer uma caixa em cima do usuário exibindo seu nome e bio.
+  <img alt="GitHub language top" src="https://img.shields.io/github/languages/top/osvaldokalvaitir/react-native-gostack4-challenge3.svg?color=00A83A">
 
-A interface da aplicação será como a seguinte:
+  <a href="https://kalvaitir.com/">
+    <img alt="Made by Kalvaitir" src="https://img.shields.io/badge/made%20by-Kalvaitir-00A83A">
+  </a>
 
-![Telas da aplicação](/.github/assets/screens.png)
+  <img alt="License" src="https://img.shields.io/badge/license-MIT-00A83A">
+</p>
 
-### Regras
+<p align="center">
+  <a href="#iphone-demo">Demo</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="#wrench-install-and-run">Install and run</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="#memo-license">License</a>
+</p>
 
-- Você pode utilizar a biblioteca [React Native MapBox](https://github.com/mapbox/react-native-mapbox-gl) para criar o mapa, siga os passos de instalação [aqui](https://github.com/mapbox/react-native-mapbox-gl#installation), ou seguindo [esse post](https://blog.rocketseat.com.br/react-native-mapbox/) no blog da Rocketseat;
-- A localização inicial do mapa deve ser: Latitude: -27.2177659 e Longitude: -49.6451598, a latitudeDelta deve ser 0.0042 e longitudeDelta 0.0031. Você pode alterar esse valores caso ache melhor.
-- O modal para cadastro de localidade só deve ser aberto após o usuário manter pressionado o mapa algum tempo (não é um simples clique).
-- A localização utilizada para cadastro deve ser a mesma que o usuário pressionou no mapa.
-- Deve-se buscar o nome, bio e avatar do usuário no Github ao cadastrar.
-- Ao clicar em cima do avatar do usuário no mapa deve-se exibir seu nome e bio em uma caixa branca, isso pode ser utilizando o recurso de [callout](https://github.com/mapbox/react-native-mapbox-gl/blob/master/docs/Callout.md).
-- A requisição à API deve ser feita utilizando Redux Saga;
+## :iphone: Demo
 
-### Dicas
+![Demo](/.github/assets/demo.gif)
 
-- Você irá precisar criar uma conta na aplicação MapBox no plano grátis para conseguir utilizar os mapas: https://www.mapbox.com/signin/
-- Para personalizar a marcação no mapa com o avatar do usuário, é necessária a utilização de uma tag Image dentro da tag PointAnnotation do MapBox.
-- Para detectar um clique longo em cima do mapa é necessária a utilização da função [onLongPress](https://github.com/mapbox/react-native-mapbox-gl/blob/master/docs/MapView.md) do MapView;
-- Para criar o Modal, utilize o componente [Modal](https://facebook.github.io/react-native/docs/modal.html) do React Native.
+## :wrench: Install and run
 
-## Índice
+Open terminal:
 
-- [Capturas de Tela](#capturas-de-tela)
+```sh
+# Clone this repo
+git clone https://github.com/osvaldokalvaitir/react-native-gostack4-challenge3
 
-  - [Principal](#principal)
+# Entry in folder
+cd react-native-gostack4-challenge3
 
-  - [Novo Usuário](#novo-usuário)
+# Install deps with npm or yarn
+npm install | yarn
 
-- [Desenvolvimento](#desenvolvimento)
+# Launch the app on android with react-native or yarn
+react-native run-android | yarn android
 
-  - [Configuração do Ambiente](#configuração-do-ambiente)
+# Launch the app on ios with react-native or yarn
+react-native run-ios | yarn ios
+```
 
-  - [Instalação do Projeto](#instalação-do-projeto)
+## :memo: License
 
-  - [Execução do Projeto](#execução-do-projeto)
+This project is under the MIT license. See [LICENSE](/LICENSE) for more information.
 
-- [Utilizados no Projeto](#utilizados-no-projeto)
+---
 
-  - [Bibliotecas](#bibliotecas)
-
-  - [APIs](#apis)
-
-  - [Ferramentas](#ferramentas)
-
-## Capturas de Tela
-
-### Principal
-
-![Main](/.github/assets/main.png)
-Nesta tela, encontra-se um mapa com todos os usuários do GitHub que foi adicionado pelo usuário, podendo também, adicionar novos usuários dando um toque longo.
-
-### Novo Usuário
-
-![New](/.github/assets/new.png)
-Esta tela é responsável por adicionar um usuário que esteja cadastrado no GitHub, sendo obrigatório informar o nome para inserí-lo.
-
-## Desenvolvimento
-
-### Configuração do Ambiente
-
-Clique [aqui](https://github.com/osvaldokalvaitir/projects-settings/blob/master/README.md) e siga `Configuração de Ambiente`.
-
-### Instalação do Projeto
-
-Clique [aqui](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/nodejs.md) e siga `Instalação de Projeto`.
-
-### Execução do Projeto
-
-Clique [aqui](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/react-native-cli.md) e siga `Execução de Projeto para Desenvolvimento`.
-
-## Utilizados no Projeto
-
-### Bibliotecas
-
-- [Axios](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/axios.md)
-
-- [Babel Root Import](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/babel-plugin-root-import.md)
-
-- [babel-eslint](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/babel-eslint.md)
-
-- [Ducks](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/ducks.md)
-
-- [eslint](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/eslint.md)
-
-- [ESLint plugin for React Native](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/eslint-plugin-react-native.md)
-
-- [eslint-import-resolver-babel-plugin-root-import](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/eslint-import-resolver-babel-plugin-root-import.md)
-
-- [Mapbox Maps SDK for React Native](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/@mapbox-react-native-mapbox-gl.md)
-
-- [prop-types](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/prop-types.md)
-
-- [React Redux](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/react-redux.md)
-
-- [react-native-cli](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/react-native-cli.md)
-
-- [reactotron-react-native](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/reactotron-react-native.md)
-
-- [reactotron-redux](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/reactotron-redux.md)
-
-- [reactotron-redux-saga](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/reactotron-redux-saga.md)
-
-- [Redux](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/redux.md)
-
-- [Redux-Saga](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/redux-saga.md)
-
-### APIs
-
-- **[GitHub](https://api.github.com)**
-
-  - **Rotas**
-
-    - Usuários
-
-      - Busca dados de um usuário
-
-### Ferramentas
-
-- [Reactotron](https://github.com/osvaldokalvaitir/projects-settings/blob/master/inspector/reactotron.md)
-
-- [Mapbox](https://github.com/osvaldokalvaitir/projects-settings/blob/master/map/mapbox.md)
+<p align="center">
+Developed with 💚 by <a href="https://www.linkedin.com/in/osvaldokalvaitir">Osvaldo Kalvaitir Filho</a>
+</p>
