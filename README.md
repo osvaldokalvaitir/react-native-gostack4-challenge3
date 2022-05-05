@@ -57,6 +57,8 @@ react-native run-android | yarn android
 react-native run-ios | yarn ios
 ```
 
+Click to learn more about the tools used: [Reactotron](https://github.com/osvaldokalvaitir/awesome/blob/main/src/apps-inspectors/reactotron.md), [Mapbox](https://github.com/osvaldokalvaitir/awesome/blob/main/src/maps/mapbox.md).
+
 ## :memo: License
 
 This project is under the MIT license. See [LICENSE](/LICENSE) for more information.
